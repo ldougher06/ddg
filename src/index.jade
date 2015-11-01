@@ -1,0 +1,24 @@
+doctype html
+html(lang="en", ng-app="ddg")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title DuckDuckGo
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+    link(rel="stylesheet", href="assets/css/main.css")
+  body(ng-controller="homeController")
+    nav.nav.navbar-fixed-top
+      .container.top
+        .navbar-header
+          a.navbar-brand.intro(href="#/") DuckDuckGo
+      .container.bottom
+        .app(ng-view)
+
+  script(src="lib/build.js")
+  script(src="assets/js/angular-resource.min.js")
+  script(src="assets/js/angular-route.min.js")
+  script(src="assets/js/main.js")
+
+
+
+

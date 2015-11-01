@@ -1,0 +1,9 @@
+h1 Here are your results: {{search}}
+
+topics(ng-repeat="text in searchResults.RelatedTopics")
+  .row
+    .col-md-12
+      .panel.panel-default
+        .panel-body{{text}}
+
+
