@@ -4,6 +4,6 @@
 	"sources": [
 		"../../../src/assets/css/main.css"
 	],
-	"mappings": "AAAA,OAAO,CAAC;EACN,gBAAgB,EAAE,QAAS,GAC5B;;AAED,GAAG,CAAC;EACF,gBAAgB,EAAE,GAAI,GACvB",
+	"mappings": "AAAA,GAAG,CAAC;EACF,gBAAgB,EAAE,GAAI,GACvB;;AAED,WAAW,CAAC;EACV,gBAAgB,EAAE,QAAS,GAC5B",
 	"names": []
 }

@@ -1,11 +1,17 @@
 
-<h1>Here are your results: {{search}}</h1>
-<topics ng-repeat="text in searchResults.RelatedTopics">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="panel panel-default">
-        <div class="panel-body">{{text}}</div>
-      </div>
-    </div>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Here are your search results for: {{search}}</th>
+        </tr>
+        <tbody>
+          <tr ng-repeat="result in results">
+            <td>{{result.Text}}</td>
+          </tr>
+        </tbody>
+      </thead>
+    </table>
   </div>
-</topics>
+</div>

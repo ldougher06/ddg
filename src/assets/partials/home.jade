@@ -1,7 +1,7 @@
-.row
+.row.search-box
   .col-md-6.col-md-offset-3
     h4 Search DuckDuckGo
     .form-group
       input.form-control(type="text" placeholder="search" ng-model="search" required)
-      .btn.btn-danger
+      button.btn.btn-danger(type="submit" placeholder="GO")
         a(href="#/results") GO

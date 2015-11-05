@@ -6,13 +6,11 @@ html(lang="en", ng-app="ddg")
     title DuckDuckGo
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
     link(rel="stylesheet", href="assets/css/main.css")
-  body(ng-controller="homeController")
-    nav.nav.navbar-fixed-top
-      .container.top
-        .navbar-header
-          a.navbar-brand.intro(href="#/") DuckDuckGo
-      .container.bottom
-        .app(ng-view)
+  body
+    .container
+      nav.navbar
+        a.navbar-brand.intro(href="#/") DuckDuckGo
+    .app(ng-view)
 
   script(src="lib/build.js")
   script(src="assets/js/angular-resource.min.js")

@@ -1,7 +1,7 @@
 // MODULE
 'use strict';
 
-var ddg = angular.module('ddg', ['ngRoute', 'ngResource']);
+var ddg = angular.module('ddg', ['ngRoute']);
 
 // ROUTES
 ddg.config(function ($routeProvider) {

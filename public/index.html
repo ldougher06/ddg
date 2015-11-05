@@ -7,15 +7,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
-  <body ng-controller="homeController">
-    <nav class="nav navbar-fixed-top">
-      <div class="container top">
-        <div class="navbar-header"><a href="#/" class="navbar-brand intro">DuckDuckGo</a></div>
-      </div>
-      <div class="container bottom">
-        <div ng-view class="app"></div>
-      </div>
-    </nav>
+  <body>
+    <div class="container">
+      <nav class="navbar"><a href="#/" class="navbar-brand intro">DuckDuckGo</a></nav>
+    </div>
+    <div ng-view class="app"></div>
   </body>
   <script src="lib/build.js"></script>
   <script src="assets/js/angular-resource.min.js"></script>
