@@ -190,7 +190,7 @@ module.exports = function(grunt) {
     'babel:dev',
     'bower_concat',
     'jade:dev',
-    'sass:dev',
+    // 'sass:dev',
     'autoprefixer'
   ]);
 

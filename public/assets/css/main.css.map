@@ -1,9 +1,0 @@
-{
-	"version": 3,
-	"file": "main.css",
-	"sources": [
-		"../../../src/assets/css/main.css"
-	],
-	"mappings": "AAAA,GAAG,CAAC;EACF,gBAAgB,EAAE,GAAI,GACvB;;AAED,WAAW,CAAC;EACV,gBAAgB,EAAE,QAAS,GAC5B",
-	"names": []
-}
